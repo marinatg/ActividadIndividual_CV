@@ -11,8 +11,11 @@ package geometria;
  */
 public class Triangulo implements FiguraGeometrica
 {
+     /*Atributo de tipo double, que contiene el valor de la base del triángulo*/
     private double base;
+    /*Atributo de tipo double, que contiene el valor de la altura del triángulo*/
     private double altura;
+     /*Atributo de tipo double, que contiene el valor del area del triángulo*/
     private double areaTriangulo;
     
 
@@ -21,7 +24,10 @@ public class Triangulo implements FiguraGeometrica
         this.base = base;
         this.altura = altura;
     }
-
+    /**
+     * Este método se usa para obtener la base
+     * @return base: devuelve la base del triángulo
+     */
     public double getBase() 
     {
         return base;
@@ -31,7 +37,10 @@ public class Triangulo implements FiguraGeometrica
     {
         this.base = base;
     }
-
+    /**
+     * Este método se usa para obtener la altura
+     * @return altura: devuelve la altura del triángulo
+     */
     public double getAltura() 
     {
         return altura;
@@ -41,7 +50,10 @@ public class Triangulo implements FiguraGeometrica
     {
         this.altura = altura;
     }
-
+    /**
+     * Este método se usa para obtener el area
+     * @return area: devuelve el area del triángulo
+     */
     public double getareaTriangulo() 
     {
         return areaTriangulo;

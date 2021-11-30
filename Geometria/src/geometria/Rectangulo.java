@@ -6,7 +6,7 @@
 package geometria;
 
 /**
- *
+ *Clase donde se definen las propiedades y los métodos para calcular el area del rectángulo.
  * @author javier
  */
 public class Rectangulo implements FiguraGeometrica

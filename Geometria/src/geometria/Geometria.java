@@ -6,7 +6,7 @@
 package geometria;
 
 /**
- *
+ *Clase donde se definen las propiedades y los métodos para calcular el area de las figuras geometricas
  * @author javier
  */
 public class Geometria {
@@ -35,6 +35,10 @@ public class Geometria {
         Triangulo triangulo = new Triangulo(5, 10);
         triangulo.area();
         System.out.println("Área del triángulo de base 5 y altura 10: " + 
+                /**
+     * Este método se usa para obtener el area
+     * @return area: devuelve el area del triángulo
+     */
                 triangulo.getareaTriangulo());        
     }   
     
